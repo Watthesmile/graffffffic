@@ -1,7 +1,15 @@
 # graffffffic
-это граффик
-how to download
-copy that code and past to py code programm
-dowload pygame:
-go to cmd
-write pip install pygame
+
+how to download:
+
+
+download pygame
+
+
+pip install pygame 
+
+
+copy the code from file: that code
+
+
+past that code to the any programm on python3
