@@ -1,7 +1,10 @@
 import pygame as pg
 
 pg.init()
-tur = [[20,50],[30,120],[60,60],[70,140],[80,300],[100,100]]
+tur=[[0,0]]
+for d in range(int(input('write how many koods you have: '))):
+    tur.append([int(g) for g in input('how 22,34 to 320,480: ').split(',')])
+    tur[d][1]=480-tur[d][1]
 playing = True
 screen = pg.display.set_mode((320, 480))
 while playing:
